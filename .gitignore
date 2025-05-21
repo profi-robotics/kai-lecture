@@ -1,0 +1,48 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter-related
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+jupyter_notebook_config.py
+
+# Training outputs
+models/*/
+
+# Environment variables and secrets
+.env
+.env.local
+.envrc
+*.env
+
+# OS-related
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files
+data/*
+!data/.gitkeep
+
+# PT files
+*.pt
